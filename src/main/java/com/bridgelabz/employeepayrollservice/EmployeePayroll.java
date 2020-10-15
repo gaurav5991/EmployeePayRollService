@@ -11,4 +11,8 @@ public class EmployeePayroll {
         this.employeeName = employeeName;
         this.employeeSalary = employeeSalary;
     }
+    @Override
+    public String toString() {
+        return "Id :" + employeeId + " Name : " + employeeName + " Salary : " + employeeSalary;
+    }
 }
